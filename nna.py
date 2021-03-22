@@ -1,6 +1,6 @@
-kor = 90
-mat = 80
-eng = 100
+kor = input( "Enter your korean score: " )
+mat = input( "Enter your math score: " )
+eng = input( "Enter your english score:" )
 
 total = (int(kor+mat+eng))
 print("all", total)
